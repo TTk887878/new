@@ -37,6 +37,7 @@ def inline(query: InlineQuery):
     divide_icon = "https://pp.vk.me/c627626/v627626512/2a620/oAvUk7Awps0.jpg"
     multiply_icon = "https://pp.vk.me/c627626/v627626512/2a62e/xqnPMigaP5c.jpg"
     error_icon = "https://pp.vk.me/c627626/v627626512/2a67a/ZvTeGq6Mf88.jpg"
+    new=''
 
     ant1 = iqra("1", "сумма", description=f"результат: {summ}", thumbnail_url=plus_icon,
                 input_message_content=itmc(f"{nums[0]}{''.join([f' + {i}' for i in nums[1:]])} = {summ}"))
